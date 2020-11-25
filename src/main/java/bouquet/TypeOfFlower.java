@@ -16,7 +16,7 @@ public enum TypeOfFlower {
         return price;
     }
 
-    public String showTypeOfFlower() {
+    public static String showTypeOfFlower() {
         System.out.print("TypeOfFlower enum: ");
         StringBuilder stringBuilder = new StringBuilder();
         for (TypeOfFlower typeOfFlower : TypeOfFlower.values()) {
@@ -38,5 +38,4 @@ public enum TypeOfFlower {
                 "price=" + price +
                 "} " + super.toString();
     }
-
 }
